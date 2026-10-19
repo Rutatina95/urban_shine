@@ -36,5 +36,13 @@ dist-ssr
 .env
 .vite
 
+# Local Python virtual environment
+/bin/
+/include/
+/lib/
+pyvenv.cfg
+__pycache__/
+*.py[cod]
+
 # Local link to a Base44 app, written by `base44 link`
 base44/.app.jsonc
